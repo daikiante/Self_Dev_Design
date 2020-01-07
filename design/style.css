@@ -4,24 +4,14 @@
 }
 
 .top-image {
-    background: url(/images/top-image_tron.jpeg) no-repeat;
+    background: url() no-repeat;
     background-size: 100%;
     color: white;
 }
 
-.logo {
+.title {
+    color: white;
     font-weight: lighter;
-    text-align: center;
-}
-
-
-/* linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)) fixed, */
-
-.main-text {
-    /* color: white; */
-    text-align: left;
-    font-weight: 300;
-    line-height: 1.5;
 }
 
 .content-title {
@@ -29,6 +19,13 @@
     font-weight: lighter;
 }
 
+.top-form {
+    border-radius: 100px;
+}
+
+.top-form-btn {
+    border-radius: 100px;
+}
 
 /* slider start */
 @keyframes slidy {
@@ -56,3 +53,38 @@
       animation: 30s slidy infinite; 
     }
 /* slider end */
+
+.cover-img {
+    background-image:url('/images/top-image_tron.jpeg');
+	height: 500px;
+	display: table;
+	width: 100%;
+    background-size: cover;
+}
+
+/* ワイドスクリーン用のCSS */
+@media only screen and (min-width: 1500px) {
+	.cover-img {
+		height: 800px;
+	}
+}
+
+/* タブレット用のCSS */
+@media only screen and (min-width : 768px) and (max-width : 1200px) {
+	.cover-img {
+		height: 500px;
+	}
+}
+
+/* スマホ用のCSS */
+@media only screen and (max-width: 479px) {
+	.cover-img {
+		height: 300px;
+	}
+}
+
+.cover-text {
+	display: table-cell;
+	vertical-align: middle;
+  text-align: center;
+}
