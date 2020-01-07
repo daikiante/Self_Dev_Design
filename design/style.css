@@ -14,11 +14,6 @@
     font-weight: lighter;
 }
 
-.content-title {
-    text-align: center;
-    font-weight: lighter;
-}
-
 .top-form {
     border-radius: 100px;
 }
@@ -60,6 +55,8 @@
 	display: table;
 	width: 100%;
     background-size: cover;
+    max-width: 100rem;
+    background-position-x: center;
 }
 
 /* ワイドスクリーン用のCSS */
@@ -86,5 +83,20 @@
 .cover-text {
 	display: table-cell;
 	vertical-align: middle;
-  text-align: center;
+    text-align: center;
+}
+
+.content-title {
+    text-align: center;
+    font-weight: lighter;
+}
+
+.content-text {
+    text-align: center;
+    font-weight: lighter;
+    line-height: 3;
+}
+
+.content-text span {
+    font-weight: bolder;
 }
