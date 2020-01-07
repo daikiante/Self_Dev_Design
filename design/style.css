@@ -1,12 +1,19 @@
-.jumbotron {
+.container {
+    width: 100%;
+    max-width: 1024px;
+}
+
+.top-image {
     background: url(/images/top-image_tron.jpeg) no-repeat;
     background-size: 100%;
+    color: white;
 }
 
 .logo {
     font-weight: lighter;
     text-align: center;
 }
+
 
 /* linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)) fixed, */
 
