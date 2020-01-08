@@ -1,0 +1,51 @@
+.user-image {
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.col-sm-1 {
+    text-align: center;
+}
+
+.content-title {
+    font-weight: lighter;
+    text-align: center;
+}
+
+.content-text {
+    font-weight: lighter;
+    text-align: center;
+    line-height: 1.6;
+    letter-spacing: 0.08em;
+}
+
+/* .related-post-img {
+    width: 100%;
+    object-fit: cover;
+} */
+
+.recent-post img{width:100%}
+
+.recent-post {
+	overflow: hidden; /*拡大時にはみ出た部分を隠す*/
+    /* height: 200px; 画像の高さ */
+}
+.recent-post img {
+	display: block;
+	transition-duration: 0.2s; /*変化に掛かる時間*/
+}
+.recent-post img:hover {
+	transform: scale(1.2); /*画像の拡大率*/
+	transition-duration: 4s; /*変化に掛かる時間*/
+}
+
+.tag-master {
+    text-align: center;
+}
+
+.tag {
+    margin: 1em;
+}
