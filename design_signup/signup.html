@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- Style CSS -->
-    <link rel="stylesheet" href="login_02.css">
+    <link rel="stylesheet" href="signup.css">
     <link rel="stylesheet" href="responsive.css">
 
     <!-- Fontawesome -->
@@ -23,8 +23,8 @@
 </head>
 <body>
 
-    <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <!-- Header -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">What's in your bag?</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -61,40 +61,29 @@
         </div>
       </nav>
 
-
       <!-- form -->
-      <div id="form-main">
-        <div id="form-div">
-          <form class="form" id="form1">
-            
-            <p class="name">
-              <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
-            </p>
-            
-            <p class="email">
-              <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
-            </p>
-            
-            <p class="text">
-              <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
-            </p>
-            
-            
-            <div class="submit">
-              <input type="submit" value="SEND" id="button-blue"/>
-              <div class="ease"></div>
-            </div>
-          </form>
-        </div>
+    <div class="wrapper">
+        <form class="form-signin">
+          <h2 class="form-signin-heading center">Signup</h2>
+          
+          <input type="password" class="form-control" name="password" placeholder="User Name" required=""/>
+          <input type="password" class="form-control" name="password" placeholder="Email Address" required=""/>
+          <input type="password" class="form-control" name="password" placeholder="Password" required=""/>
+          <input type="password" class="form-control" name="password" placeholder="Password Again" required=""/>
+          <button class="btn btn-lg btn-primary btn-block form-btn" type="submit">Login</button>
+          <p class="center mt-3">or</p>
+          <p class="center"><a style='text-decoration: none;' href="">login</a></p>
+        </form>
+      </div>
 
-    
+
         <!-- footer -->
-    <nav class="navbar fixed-bottom navbar-light bg-light mt-5">
-        <a class="navbar-brand mx-auto" href="#">What's in your bag?</a>
-    </nav>
-    <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <nav class="navbar fixed-bottom navbar-light bg-light mt-5">
+            <a class="navbar-brand mx-auto" href="#">What's in your bag?</a>
+        </nav>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
