@@ -51,7 +51,7 @@
 /* slider end */
 
 .cover-img {
-    background-image:url('/images/top-image_tron.jpeg');
+    background-image:url('./images/top-image_tron.jpeg');
 	height: 500px;
 	display: table;
 	width: 100%;
