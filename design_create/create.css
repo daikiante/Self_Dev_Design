@@ -1,3 +1,16 @@
+.create-title {
+    text-align: center;
+    font-weight: lighter;
+}
+
 .create_btn {
     border-radius: 100px;
+}
+
+.create-form {
+    text-align: center;
+}
+
+.create-form-contents {
+    font-weight: lighter;
 }
